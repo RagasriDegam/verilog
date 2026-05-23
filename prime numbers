@@ -1,0 +1,22 @@
+//prime
+module top;
+integer inA[99:0];
+reg prime_f;
+initial begin
+for(i=2; i<100 i=i+1)begin
+prime_f=1;
+//count=0;
+for(j=2; j<=i**0.5;j=j+1)begin
+if(i%j==0)begin
+prime_f=0
+j=i;
+end
+end
+if(prime_f==1)begin
+$display("\t-->prime value=%0d",i);
+//count=count+1;
+end
+end
+//$display("\t-->total=%0d",count);
+end
+endmodule
