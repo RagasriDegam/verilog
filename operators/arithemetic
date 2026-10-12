@@ -1,0 +1,23 @@
+module tb;
+  reg[4:0]a;
+  reg[4:0]b;
+  reg[4:0]c;
+  
+  
+  initial begin
+    a=3;
+    b=7;
+    c=a+b;
+    $display("add->a=%d b=%d c=%d",a,b,c);
+    c=b-a;
+    $display("sub->a=%d b=%d c=%d",a,b,c);
+    c=a*b;
+    $display("mul->a=%d b=%d c=%d",a,b,c);
+    c=a/b;
+    $display("div->a=%d b=%d c=%d",a,b,c);
+    c=a%b;
+    $display("mod->a=%d b=%d c=%d",a,b,c);
+    c=a**b;
+    $display("power->a=%d b=%d c=%d",a,b,c);
+  end
+endmodule 
