@@ -8,3 +8,16 @@ string
 upcounter
 primenumbers
 pattern
+alu
+array
+array with precision
+brinarytogray
+graytobrinary
+comparator
+encoder
+priority encoder
+event
+fulladder task/function
+halfadder task/function
+genvar
+
